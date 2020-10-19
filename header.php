@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="profile" href="https://gmpg.org/xfn/11">
+        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" type="image/x-icon" />
     </head>
     <body>
 	
@@ -21,8 +22,8 @@
 
 	<header>
         <div class="container">
-            <div class="row d-flex-center">
-                <div class="col-6">
+            <div class="row flex align-center">
+                <div class="column-large-6">
                     <div class="header-left">
                         <a href="#" class="header-brand">Logo</a>
                         <div class="burger">
@@ -32,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="column-large-6">
             		<?php
 				        wp_nav_menu(array(
 				          	'theme_location'  => 'header',
